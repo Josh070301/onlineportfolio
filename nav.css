@@ -1,0 +1,50 @@
+/*Top navigator CSS, Objective and Contact*/
+.top-nav{
+    height: 55px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: black;
+    border-bottom: 2px gray solid;
+    
+}
+.top-nav button{
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-family: Montserrat, Arial;
+    font-size: 20px;
+}
+.nav-list ul{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list li{
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: none;
+}
+.navi-hover{
+    margin-top: -14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 17px;
+    border-right: 1px white solid;
+    border-left: 1px white solid;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.navi-hover:hover{
+    background-color: rgb(21, 21, 21);
+}
+.navi-hover:active{
+    background-color: rgb(0, 0, 58);
+}
+.navi-hover a{
+    text-decoration: none;
+    color: white;
+}

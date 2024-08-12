@@ -1,0 +1,158 @@
+/*Middle CSS Objectives - Education below*/
+.main-middle-div{
+    height: 52rem;
+    background-image: url("img/bg-middle.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 1px rgb(98, 98, 244) double ;
+    position: relative;
+}
+.main-middle-div-two{
+    height: 20rem;
+    background-image: url("img/bg-middle.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 1px rgb(98, 98, 244) double ;
+    position: relative;
+}
+.objective{
+    margin-top: 20px;
+    border-radius: 20%;
+    background-color: rgba(32, 32, 55, 0.584);
+    position: absolute;
+    left: 22.5%;
+    right: 22.5%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.15s, box-shadow 0.20s;
+}
+.objective:hover,.achievement:hover,.cert:hover,.knowledge:hover,.educ:hover{
+    background-color: rgb(32, 32, 55);
+    box-shadow: 0px 2px 5px rgb(21, 21, 183);
+}
+.objective h1{
+    background-color: rgb(47, 46, 79);
+    padding: 10px 100px 10px 100px;
+    text-shadow: 0px 2px 1px rgb(21, 21, 183);;
+    box-shadow:0px 2px 5px rgb(21, 21, 183);
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+.objective li{
+    line-height: 30px;
+    font-size: 18px;
+}
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    position: absolute;
+    top: 37%;
+    bottom: 33%;
+    left: 10%;
+    right: 55%;
+    background-color: rgba(32, 32, 55, 0.584);
+    border-radius: 20%;
+    transition: background-color 0.15s, box-shadow 0.20s;
+}
+.knowledge h1, .achievement h1, .cert h1, .educ h1{
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(47, 46, 79);
+    padding: 10px 50px 10px 50px;
+    text-shadow: 0px 2px 1px rgb(21, 21, 183);;
+    box-shadow:0px 2px 5px rgb(21, 21, 183);
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+.first-list span{
+    text-decoration: underline;
+}
+.knowledge li, .achievement li{
+    line-height: 25px;
+    margin-left: 50px;
+}
+.cert li, .educ li{
+    line-height: 30px;
+    margin-left: 50px;
+}
+.knowledge-rate{
+    display: flex;
+}
+.no-style{
+    list-style: none;
+}
+.no-style li, .knowledge li{
+    letter-spacing: 2px;
+}
+.achievement{
+    position: absolute;
+    left: 55%;
+    top: 37%;
+    bottom: 33%;
+    right: 10%;
+    font-size: 11px;
+    background-color: rgba(32, 32, 55, 0.584);
+    border-radius: 10%;
+    box-shadow: 0px 2px 5px rgb(21, 21, 183);
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.15s, box-shadow 0.20s;
+}
+.cert{
+    border-radius: 20%;
+    background-color: rgba(32, 32, 55, 0.584);
+    box-shadow: 0px 2px 5px rgb(21, 21, 183);;
+    position: absolute;
+    left: 10%;
+    right: 55%;
+    top: 70%;
+    bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.15s, box-shadow 0.20s;
+}
+.educ{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+    position: absolute;
+    right: 10%;
+    left: 55%;
+    top: 70%;
+    bottom: 3%;
+    background-color: rgba(32, 32, 55, 0.584);
+    box-shadow: 0px 2px 5px rgb(21, 21, 183);
+    transition: background-color 0.15s, box-shadow 0.20s;
+}
+.objective-two{
+    margin-top: 20px;
+    border-radius: 20%;
+    background-color: rgba(32, 32, 55, 0.584);
+    position: absolute;
+    left: 22.5%;
+    right: 22.5%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.15s, box-shadow 0.20s;
+}
+.objective-two:hover{
+    background-color: rgb(32, 32, 55);
+    box-shadow: 0px 2px 5px rgb(21, 21, 183);
+}
+.objective-two h1{
+    background-color: rgb(47, 46, 79);
+    padding: 10px 100px 10px 100px;
+    text-shadow: 0px 2px 1px rgb(21, 21, 183);;
+    box-shadow:0px 2px 5px rgb(21, 21, 183);
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+.objective-two li{
+    line-height: 30px;
+    font-size: 18px;
+}

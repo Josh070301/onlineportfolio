@@ -1,0 +1,93 @@
+body{
+    margin: 0px 0px 0px 0px;
+    /*background-color: rgb(22, 24, 33);*/
+    background-color: rgb(41, 37, 103);
+    color: white;
+    font-family: Montserrat, Arial;
+}
+.main-div{
+    background-image: url("img/background.avif");
+    background-size: 100%;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.profile-div{
+    margin-top: 10px;
+    margin-right: 5%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+}
+.profile{ /*profile picture*/
+    width: 200px;
+    object-fit: contain;
+    border-radius:100px;
+    border: 3px rgba(0, 0, 255, 0.13) solid;
+    margin-bottom: 2px;
+    box-shadow: 0px 2px 1px rgb(21, 21, 183);
+}
+.profile-div h1{
+    text-shadow: 1px 1px white;
+    font-weight: 700;
+    margin: 0px 0px 30px 0px;
+    cursor: pointer;
+    color: rgb(78, 103, 215);
+    box-shadow: 0px 0.2px 0px 0px rgb(21, 21, 183);
+}
+.profile-div p{  /*paragrap of class element named profile-div*/
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(17, 17, 207) ;
+    background-color: #2b2418;
+    box-shadow: 1px 2px 2px rgb(21, 21, 183);
+}
+.introduction{
+    padding: 20px 15px 20px 15px;
+    border: 4px rgba(0, 0, 255, 0.189) solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    box-shadow: 3px 2px 3px 2px rgb(21, 21, 183);
+}
+.introduction ul li{
+    line-height: 30px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(181, 181, 181);
+    font-size: 20px;
+    color: white;
+}
+.google-blue{
+    color: rgb(147, 147, 255);
+}
+.google-red{
+    color: rgb(151, 84, 84);
+}
+.google-yellow{
+    color: yellow;
+}
+.google-green{
+    color: rgb(85, 155, 85);
+}
+.google-blue,.google-green,.google-red,.google-yellow{
+    font-weight: bold;
+}
+.color-red:hover{
+    color: rgb(163, 0, 0);
+}
+.color-green:hover{
+    color: rgb(0, 108, 0);
+}
+.color-blue:hover{
+    color: rgb(0, 0, 126);
+}
