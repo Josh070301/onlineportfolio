@@ -37,3 +37,6 @@
 .fb:hover, .fb img:hover{
     opacity: 80%;
 }
+.project-link{
+    color: white;
+}
